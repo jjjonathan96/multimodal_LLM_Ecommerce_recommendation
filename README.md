@@ -1,6 +1,3 @@
-Here's a comprehensive **README** template for your master's project:
-
----
 
 # **A Multimodal Recommender System for Dynamic E-Commerce Personalization Using Foundation Models and LLM**  
 
@@ -41,10 +38,7 @@ The research addresses the challenge of capturing temporal dynamics and user pre
    - Pandas, NumPy, and Scikit-learn for data analysis and preprocessing  
 
 4. **Evaluation Metrics**:  
-   - Recall, Precision, F1-score, and Mean Reciprocal Rank (MRR).  
-   - Ablation studies to measure the impact of each modality.  
-
-
----
-
-This **README** is detailed, professional, and aligns with GitHub standards. Let me know if you want to customize it further!
+   - Hit Rate (HR): Measures how often the recommended items include the relevant item.  
+   - NDCG (Normalized Discounted Cumulative Gain): Evaluates the ranking quality by assigning higher scores to relevant items at the top of the recommendation list.
+   - MRR (Mean Reciprocal Rank): Calculates the reciprocal rank of the first relevant item in the recommendation list.
+   - MAP (Mean Average Precision): Measures the average precision across all recommendation lists.

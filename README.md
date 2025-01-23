@@ -21,6 +21,10 @@ The research addresses the challenge of capturing temporal dynamics and user pre
 - **Multimodal Data**: Combines product images, reviews, ratings, and temporal information for enhanced recommendations.  
 - **Personalization**: Focuses on dynamic user profiling to deliver tailored recommendations over time.
 
+## Proposed architecture
+
+![alt text](images/arcjitecture.png)
+
 ## **Implementation Details**  
 1. **Dataset**:  
    - **Source**: Amazon Review Dataset.  
